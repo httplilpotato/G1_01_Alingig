@@ -30,3 +30,13 @@ h1, h2, h3 {
     margin-top: 20px; /* Add top margin */
     order: -1; /* Move the image to the beginning */
 }
+
+.audio-control {
+    order: 1; /* Move the audio to the end */
+}
+   
+.datetime {
+    font-size: 30px;
+    color: cyan;
+    margin-bottom: 20px;
+}
