@@ -20,3 +20,13 @@ h1, h2, h3 {
 .bio-data {
     margin-bottom: 20px;
 }
+
+.item {
+    margin-bottom: 5px;
+}
+
+.profile-image {
+    width: 200px;
+    margin-top: 20px; /* Add top margin */
+    order: -1; /* Move the image to the beginning */
+}

@@ -15,10 +15,51 @@
             flex-direction: column; /* Stack items vertically */
             align-items: center; /* Center items horizontally */
         }
+
+        .container, .media-container {
+            background-color: #16acbacd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 45%; /* Adjust width to take up 45% of the screen */
+            margin-bottom: 20px; /* Add margin to separate containers */
+        }
+
+        .bio-data {
+            text-align: left;
+        }
+
+        .item {
+            margin-bottom: 10px;
+        }
+
+        .item b {
+            display: inline-block;
+            width: 150px;
+            font-weight: bold;
+        }
+
+        .media-container {
+            display: flex; /* Use flexbox */
+            flex-direction: column; /* Arrange items in a column */
+            align-items: center; /* Center items horizontally */
+        }
+
+        .media-container audio {
+            max-width: 100%;
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+        .media-container video,
+        .media-container img {
+            max-width: 100%; /* Set max width for better display */
+            display: block;
+            margin-bottom: 20px; /* Add margin to separate image and audio */
+        }
     </style>
 </head>
 <body>
-
     <!-- Main Container -->
     <div class="container">
         <h1>College of Computer Studies</h1>
@@ -86,5 +127,13 @@
             </div>
         </div>
     </div>
+
+    <!-- Media Container -->
+    <div class="media-container">
+        <!-- Image Container -->
+        <div>
+            <b>LILIAN CURAY ALINGIG</b>
+            <img src="Lilian.png" alt="Alingig" class="profile-image">
+        </div>
 </body>
 </html>
