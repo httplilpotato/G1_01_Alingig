@@ -15,6 +15,12 @@
             flex-direction: column; /* Stack items vertically */
             align-items: center; /* Center items horizontally */
         }
+        
+        #datetime {
+            font-size: 30px;
+            color: cyan;
+            margin-bottom: 20px; /* Add margin to separate from the containers */
+        }
 
         .container, .media-container {
             background-color: #16acbacd;
@@ -60,6 +66,10 @@
     </style>
 </head>
 <body>
+    <div class="datetime">
+        <div id="datetime"></div>
+        <script src="script.js"></script>
+    </div>
 
     <!-- Main Container -->
     <div class="container">
